@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name:       AA Basic Shortcodes Plugin Boilerplate
- * Plugin URI:        http://ahmadawais.com/coding-a-basic-shortcodes-plugin-boilerplate/
+ * Plugin URI:        https://github.com/jonathanarbely/WP-Shortcode-Boilerplate
  * Description:       Coding shortcodes in a plugin with maintainable code practices.
- * Version:           2.0.0
- * Author:            Ahmad Awais
- * Author URI:        http://ahmadawais.com/
+ * Version:           1.0.0
+ * Author:            Ahmad Awais & Jonathan Arbely
+ * Author URI:        http://bymagellan.co/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       ABS
@@ -26,7 +26,7 @@ if ( ! defined( 'WPINC' ) ) {
  */
 // Plugin version.
 if ( ! defined( 'ABS_VERSION' ) ) {
-	define( 'ABS_VERSION', '2.0.0' );
+	define( 'ABS_VERSION', '1.0.0' );
 }
 
 if ( ! defined( 'ABS_NAME' ) ) {
@@ -42,22 +42,8 @@ if ( ! defined( 'ABS_URL' ) ) {
 }
 
 /**
- * Link.
- *
- * @since 1.0.0
- */
-require_once( ABS_DIR . '/shortcode/shortcode-link.php' );
-
-/**
- * Member.
- *
- * @since 1.0.0
- */
-require_once( ABS_DIR . '/shortcode/shortcode-member.php' );
-
-/**
  * Adsense.
  *
  * @since 1.0.0
  */
-require_once( ABS_DIR . '/shortcode/shortcode-adsense.php' );
+require_once( ABS_DIR . '/shortcode/shortcode-boilerplate.php' );
